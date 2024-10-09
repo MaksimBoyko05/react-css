@@ -23,3 +23,16 @@ button{
 .btn:hover::before{
   content: "Ready!";
 }
+.square{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  margin-top: 50px;
+  left: 45%;
+  border: 1px solid #000;
+  transition: 0.5s;
+}
+.square:hover{
+  transform: scale(1.5);
+  transform: rotate(45deg);
+}
