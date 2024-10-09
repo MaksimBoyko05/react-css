@@ -6,8 +6,8 @@ function App() {
     <div className="App">
      <button class="btn">Press</button>
      <div class="square">
-
      </div>
+     <div class="object"></div>
     </div>
   );
 }
