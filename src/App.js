@@ -9,7 +9,7 @@ function App() {
      </div>
      <div class="object"></div>
      <div class="circle">wooow</div>
-     <div class=""></div>
+     <div class="square_2"></div>
     </div>
   );
 }

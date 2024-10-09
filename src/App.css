@@ -65,3 +65,17 @@ button{
   0% {transform: rotate(0deg);}
   100% {transform: rotate(360deg); background-color: red;}
 }
+.square_2{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin-top: 500px;
+  left: 45%;
+  border: 1px solid #000;
+  animation: marvel 7s infinite;
+}
+@keyframes marvel{
+  0%{ background-color: red;}
+  50% {transform: scale(2); background-color: green;}
+  100% {transform: rotate(180deg); scale:(1);}
+}
