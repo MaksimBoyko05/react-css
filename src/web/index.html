@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Складання чисел</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <style>
+        #result {
+            background-color: pink;
+            padding: 10px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Калькулятор складання</h1>
+    <input type="number" id="number1" placeholder="Число 1">
+    <input type="number" id="number2" placeholder="Число 2">
+    <button id="sumButton">Скласти</button>
+    <div id="result"></div>
+
+    <script>
+        $(document).ready(function(){
+            $('#sumButton').click(function(){
+                var num1 = parseFloat($('#number1').val());
+                var num2 = parseFloat($('#number2').val());
+                var sum = num1 + num2;
+                $('#result').text('Результат: ' + sum);
+            });
+        });
+    </script>
+</body>
+</html>
