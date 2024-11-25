@@ -1,0 +1,1 @@
+let message="Hello, TypeScript!";function greet(e){return`Hello, ${e}!`}console.log(message);let greetingMessage=greet("Alice");console.log(greetingMessage);
