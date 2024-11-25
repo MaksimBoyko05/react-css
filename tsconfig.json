@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig to read more about this file */
-
+    "outDir": "./src/dist",   // Директорія для вихідних файлів JavaScript
+    "rootDir": "./src/web",   // Вхідна директорія з TypeScript файлами
     /* Projects */
     // "incremental": true,                              /* Save .tsbuildinfo files to allow for incremental compilation of projects. */
     // "composite": true,                                /* Enable constraints that allow a TypeScript project to be used with project references. */
